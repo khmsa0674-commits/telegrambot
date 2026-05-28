@@ -59,6 +59,7 @@ def is_supported_url(url: str) -> bool:
 
 def _get_ydl_opts(output_path: str, platform: str) -> dict:
     base_opts = {
+        "cookiefile": "cookies.txt",
         "outtmpl": os.path.join(output_path, "%(id)s.%(ext)s"),
         "quiet": True,
         "no_warnings": True,
