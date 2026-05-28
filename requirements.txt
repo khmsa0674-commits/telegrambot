@@ -1,0 +1,4 @@
+# VideoBot - متطلبات التشغيل
+python-telegram-bot==21.6
+yt-dlp>=2024.11.18
+aiohttp>=3.9.0
